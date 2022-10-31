@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+.containers {
+    font-size : 10pt;
+    height : 100pv;
+}
+
+.hero {
+    padding-left : 70px;
+    color : white;
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    font-family: 'Playfair Display', serif;
+    height : 100vh;
+    background : url('https://res.cloudinary.com/nadahusin/image/upload/v1667153942/myapp/bghome_a8doea.png');
+    background-position : center;
+    background-repeat : no-repeat;
+}
+
+.hero h1 {
+    font-size : 64px;
+    font-weight : 600px;
+    margin-bottom : 74px;
+}
+
+.txt-hero {
+    width : 40%;
+}
+
+.hero h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size : 22px;
+}
+
+.hero img {
+    height: 2px;
+    width: 32px;
+    left: 123px;
+    top: 519.99365234375px;
+    border-radius: 4px;
+    margin-bottom : 50px;
+}
+
+.dropdown {
+    justify-content : space-between;
+    align-items : center;
+    height : 52px;
+    margin-bottom : 30px;
+}
+
+.dropdown2 {
+    justify-content : space-between;
+    align-items : center;
+    height : 52px;
+}
+
+.choose {
+    margin-right : 20px;
+    width : 220px;
+    height : 52px;
+    margin-bottom : 20px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction : inherit;
+    font-family: 'Nunito', sans-serif;
+    font-size : 18px;
+    
+}
+
+.btn-choose {
+    margin-top : 20px;
+    width : 180px;
+    height : 52px;
+    color : rgba(57, 57, 57, 1);
+    font-family: 'Nunito', sans-serif;
+}
+
+.popular {
+    margin-top : 94px;
+    font-family: 'Playfair Display', serif;
+    padding-left : 70px;
+    padding-right : 20px;
+
+}
+
+.img-loc {
+    margin-top : 80px;
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : space-around;
+}
+
+.testimonials {
+    margin-top : 94px;
+    font-family: 'Playfair Display', serif;
+    padding-left : 70px;
+
+}
+
+.testimonials h1 {
+    margin-bottom : 120px;
+}
+
+.txt-testimoni {
+    font-family: 'Mulish', sans-serif;
+    font-size : 24px;
+    display : flex;
+    width : 85%;
+    
+}
+
+.testimonials h3 {
+    /* margin-top : 60px; */
+    font-family: 'Nunito', sans-serif;
+    font-size : 22px;
+
+}
+
+.testimonials h5 {
+    font-family: 'Nunito', sans-serif;
+    font-size : 18px;
+}

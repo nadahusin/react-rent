@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+
+.containers {
+    font-size : 10pt;
+    height : 100pv;
+}
+
+.auth {
+    display : flex;
+    justify-content : space-between;
+    /* align-items : center; */
+    padding-left : 70px;
+    padding-right : 70px;
+    color : white;
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    font-family: 'Playfair Display', serif;
+    height : 100vh;
+    background : url('https://res.cloudinary.com/nadahusin/image/upload/v1667153945/myapp/bglogin_mumyzk.png');
+    background-position : center;
+    background-repeat : no-repeat;
+}
+
+.auth h1 {
+    font-size : 64px;
+    font-weight : 700px;
+    margin-bottom : 50px;
+}
+
+.txt-auth {
+    width : 40%;
+}
+
+.auth h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size : 22px;
+}
+
+.sign {
+    margin-top : 20px;
+    width : 391px;
+    height : 79px;
+    color : rgba(255, 205, 97, 1);
+    margin-bottom : 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size : 24px;
+}
+
+.form-auth {
+    height : 30%;
+    display : grid;
+}
+
+.my-auth {
+    width : 447px;
+    height : 45px;
+    font-family: 'Nunito', sans-serif;
+    font-size : 24px;
+}
+
+.btn-choose {
+    margin-top : 20px;
+    width : 180px;
+    height : 52px;
+    color : rgba(57, 57, 57, 1);
+    font-family: 'Nunito', sans-serif;
+}

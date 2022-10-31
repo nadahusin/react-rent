@@ -1,0 +1,26 @@
+.header {
+    height : 20vh;
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    padding-left : 70px;
+    padding-right : 70px;
+}
+
+.my-btn {
+   margin-right : 20px;
+   width : 100px;
+}
+
+.navigate {
+    display : flex;
+}
+
+.btnlink {
+    display : flex;
+}
+
+a {
+    text-decoration : none;
+    color : black;
+}
