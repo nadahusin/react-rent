@@ -4,21 +4,13 @@
 
 .containers {
     font-size : 10pt;
-    height : 100pv;
+    height : 100vh;
 }
 
 .auth {
-    display : flex;
-    justify-content : space-between;
-    /* align-items : center; */
-    padding-left : 70px;
-    padding-right : 70px;
+    position : relative;
     color : white;
-    display : flex;
-    flex-direction : column;
-    justify-content : center;
     font-family: 'Playfair Display', serif;
-    height : 100vh;
     background : url('https://res.cloudinary.com/nadahusin/image/upload/v1667153945/myapp/bglogin_mumyzk.png');
     background-position : center;
     background-repeat : no-repeat;
@@ -31,7 +23,29 @@
 }
 
 .txt-auth {
-    width : 40%;
+    display : flex;
+    width : 100%;
+    align-items : center;
+    height : 100vh;
+}
+
+.right {
+    display : flex;
+    flex-direction : column;
+    padding : 70px;
+    width : 50%;
+}
+
+.left {
+    display : flex;
+    flex-direction : column;
+    padding : 70px;
+    width : 50%;
+    justify-content : center;
+}
+
+.right h3 {
+    text-decoration : underline;
 }
 
 .auth h3 {
@@ -43,10 +57,10 @@
     margin-top : 20px;
     width : 391px;
     height : 79px;
+    font-size : 20px;
     color : rgba(255, 205, 97, 1);
     margin-bottom : 20px;
     font-family: 'Nunito', sans-serif;
-    font-size : 24px;
 }
 
 .form-auth {
@@ -56,15 +70,30 @@
 
 .my-auth {
     width : 447px;
-    height : 45px;
+    height : 79px;
     font-family: 'Nunito', sans-serif;
     font-size : 24px;
+    margin-bottom : 30px;
 }
 
 .btn-choose {
     margin-top : 20px;
-    width : 180px;
-    height : 52px;
+    font-size : 20px;
+    width : 446px;
+    height : 79px;
     color : rgba(57, 57, 57, 1);
     font-family: 'Nunito', sans-serif;
+
 }
+
+.line {
+    position : absolute;
+    background-color : whitesmoke;
+    top : 50%;
+    left : 48%;
+    transform : translate(-50%, -50%);
+    height : 80%;
+    width : 3px;
+}
+
+

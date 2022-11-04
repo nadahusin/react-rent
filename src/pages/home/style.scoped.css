@@ -105,12 +105,16 @@
     margin-bottom : 120px;
 }
 
-.txt-testimoni {
+.text-image {
     font-family: 'Mulish', sans-serif;
     font-size : 24px;
     display : flex;
     width : 85%;
-    
+}
+
+.txt-testimoni {
+    display : flex;
+    flex-direction : column;
 }
 
 .testimonials h3 {

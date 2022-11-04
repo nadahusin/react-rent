@@ -1,0 +1,16 @@
+.footer-list {
+    text-align: justify;
+}
+
+.footer-list h6 {
+    color: black;
+    font-weight: 700;
+}
+
+.footicons {
+    justify-content : space-around;
+    display: flex;
+    align-items: center;
+    margin-left: 550px;
+    margin-right: 550px;
+}

@@ -1,4 +1,4 @@
-import './style.css'
+import './style.scoped.css'
 import React from 'react';
 
 function Header() {
@@ -8,16 +8,16 @@ function Header() {
 
             <div className="navigate">
                 <div className="btnlink">
-                    <a class="nav-link" href="!#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="!#">Vehicle Type <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="!#">History <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="!#">About <span class="sr-only">(current)</span></a>
+                    <a className="nav-link" href="!#">Home <span class="sr-only">(current)</span></a>
+                    <a className="nav-link" href="!#">Vehicle Type <span class="sr-only">(current)</span></a>
+                    <a className="nav-link" href="!#">History <span class="sr-only">(current)</span></a>
+                    <a className="nav-link" href="!#">About <span class="sr-only">(current)</span></a>
                 </div>
 
 
                 <div className="btnauth">
-                <button type="button" class="btn btn-outline-warning my-btn">Login</button>
-                <button type="button" class="btn btn-warning my-btn">Register</button>
+                <button type="button" className="btn btn-outline-warning my-btn">Login</button>
+                <button type="button" className="btn btn-warning my-btn">Register</button>
                 </div>
 
             </div>

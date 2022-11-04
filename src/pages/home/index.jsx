@@ -1,8 +1,9 @@
-import './style.css';
+import './style.scoped.css';
 import React from 'react';
 import Header from '../../components/header'
 import line from '../../assets/img/garis.png'
 import Cards from '../../components/card'
+import Footer from '../../components/footer'
 
 
 const popular = [
@@ -41,50 +42,50 @@ function Home() {
             <img src={line} alt="line.png" />
 
             <div className="dropdown">
-            <a class="btn btn-secondary dropdown-toggle btn-lg choose" href="!#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a className="btn btn-secondary dropdown-toggle btn-lg choose" href="!#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Location
             </a>
 
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item" href="!#">Yogyakarta</a>
-                <a class="dropdown-item" href="!#">Kalimantan</a>
-                <a class="dropdown-item" href="!#">Malang</a>
-                <a class="dropdown-item" href="!#">Jakarta</a>
+            <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a className="dropdown-item" href="!#">Yogyakarta</a>
+                <a className="dropdown-item" href="!#">Kalimantan</a>
+                <a className="dropdown-item" href="!#">Malang</a>
+                <a className="dropdown-item" href="!#">Jakarta</a>
             </div>
 
-            <a class="btn btn-secondary dropdown-toggle btn-lg choose" href="!#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a className="btn btn-secondary dropdown-toggle btn-lg choose" href="!#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Type
             </a>
 
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="!#">Cars</a>
-                <a class="dropdown-item" href="!#">Motorbike</a>
-                <a class="dropdown-item" href="!#">Bike</a>
+            <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a className="dropdown-item" href="!#">Cars</a>
+                <a className="dropdown-item" href="!#">Motorbike</a>
+                <a className="classNamedropdown-item" href="!#">Bike</a>
             </div>
             </div>
 
             <div className="dropdown2">
-            <a class="btn btn-secondary dropdown-toggle btn-lg choose" href="!#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a className="btn btn-secondary dropdown-toggle btn-lg choose" href="!#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Payment
             </a>
 
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="!#">With Prepayment</a>
-                <a class="dropdown-item" href="!#">No Prepayment</a>
+            <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a className="dropdown-item" href="!#">With Prepayment</a>
+                <a className="dropdown-item" href="!#">No Prepayment</a>
             </div>
 
-            <a class="btn btn-secondary dropdown-toggle btn-lg choose" href="!#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a className="btn btn-secondary dropdown-toggle btn-lg choose" href="!#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Date
             </a>
 
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="!#">Januari</a>
-                <a class="dropdown-item" href="!#">Februari</a>
-                <a class="dropdown-item" href="!#">Maret</a>
-                <a class="dropdown-item" href="!#">April</a>
+            <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a className="dropdown-item" href="!#">Januari</a>
+                <a className="dropdown-item" href="!#">Februari</a>
+                <a className="dropdown-item" href="!#">Maret</a>
+                <a className="dropdown-item" href="!#">April</a>
             </div>
             </div>
-            <button type="button" class="btn btn-warning btn-choose">Explore</button>
+            <button type="button" className="btn btn-warning btn-choose">Explore</button>
         </div>
 
         <div className="popular">
@@ -108,22 +109,22 @@ function Home() {
                 <img src="https://res.cloudinary.com/nadahusin/image/upload/v1667164304/myapp/star_occhma.png" alt="star.png"></img>
             </div>
 
-            <div className="txt-testimoni">
-                <p>”It was the right decision to rent vehicle here, I spent less money and enjoy the trip. It was an amazing experience to have a ride for wildlife trip!”</p>                
-                  <h3> Edward Newgate</h3>
-                  <h5> Founder Circle</h5>
+            <div className="text-image">
+                <div className="txt-testimoni">
+                <p>”It was the right decision to rent vehicle here,
+                    I spent less money and enjoy the trip.
+                    It was an amazing experience to have a ride for wildlife trip!”</p>   
+                    <h3> Edward Newgate</h3>
+                  <h5> Founder Circle</h5>             
+                </div>
+                <img src="https://res.cloudinary.com/nadahusin/image/upload/v1667153929/myapp/edward_x1dhnd.png" className="rounded float-right" alt="..."></img>
 
-                <img src="https://res.cloudinary.com/nadahusin/image/upload/v1667153929/myapp/edward_x1dhnd.png" class="rounded float-right" alt="..."></img>
+            </div>                
+         </div>
 
-                    
-            </div>
-
-            
-
-        
-        </div>
         <div className="footer">
-            <p>footer</p>
+            <Footer />
+            
         </div>
     </div>
   )

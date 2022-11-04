@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+
+.containers {
+    font-size : 10pt;
+    height : 100pv;
+}
+.header {
+    height : 20vh;
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    padding-left : 70px;
+    padding-right : 70px;
+}
+
+.btnauth {
+   margin-right : 20px;
+   width : 100px;
+   justify-content: space-between;
+display: flex;
+}
+
+.navigate {
+    display : flex;
+}
+
+.btnlink {
+    display : flex;
+}
+
+a {
+    text-decoration : none;
+    color : black;
+}
+
+
+.popular {
+    margin-top : 94px;
+    font-family: 'Playfair Display', serif;
+    padding-left : 70px;
+    padding-right : 20px;
+
+}
+
+.cars {
+    margin-top : 94px;
+    font-family: 'Playfair Display', serif;
+    padding-left : 70px;
+    padding-right : 20px;
+
+}
+
+.motorbike {
+    margin-top : 94px;
+    font-family: 'Playfair Display', serif;
+    padding-left : 70px;
+    padding-right : 20px;
+
+}
+
+.bike {
+    margin-top : 94px;
+    font-family: 'Playfair Display', serif;
+    padding-left : 70px;
+    padding-right : 20px;
+
+}
+
+.img-loc {
+    margin-top : 80px;
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : space-around;
+}

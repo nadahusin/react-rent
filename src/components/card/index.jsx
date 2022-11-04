@@ -1,10 +1,12 @@
 import React from 'react'
-import './style.css'
+import './style.scoped.css'
 
 function Cards(props) {
+   
   return (
    <div className="containers">
     <div className="image">
+        
         <img src={props.img} alt="img.png" />
     </div>
     <div className="desc">
